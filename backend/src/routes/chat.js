@@ -1,7 +1,9 @@
+require("dotenv").config();
+
 const express = require("express");
 const router = express.Router();
 const Anthropic = require("@anthropic-ai/sdk");
-const client = new Anthropic({ apiKey: "" });
+const client = new Anthropic();
 
 const systemPrompt = `
 You are StudyPilot, a friendly AI study planning assistant for college students.

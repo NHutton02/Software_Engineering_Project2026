@@ -85,7 +85,7 @@ StudyPilot
 
 - Noah Hutton  
 - Jacob Dickson 
-- Team Member 3  
+- Trey Simpson
 - Team Member 4  
 
 ---

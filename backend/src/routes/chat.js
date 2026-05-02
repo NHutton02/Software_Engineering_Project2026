@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Anthropic = require("@anthropic-ai/sdk");
-const client = new Anthropic({ apiKey: "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" });
+const client = new Anthropic({ apiKey: "" });
 
 const systemPrompt = `
 You are StudyPilot, a friendly AI study planning assistant for college students.

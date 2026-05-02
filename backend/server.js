@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const express = require("express");
-const chatRoute = require("./ai/chat");
+const chatRoute = require("./routes/chat");
 
 const app = express();
 app.use(express.json());

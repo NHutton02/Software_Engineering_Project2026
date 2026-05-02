@@ -9,7 +9,8 @@ How to Run
        npm install
 
 4. Set your API key (PowerShell):
-       $env:ANTHROPIC_API_KEY="API KEY"
+       $env:ANTHROPIC_API_KEY="API KEY" 
+-Trey has API key, send message
 
 5. Talk To The AI:
        node ai/chat.js

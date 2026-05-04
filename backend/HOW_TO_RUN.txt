@@ -1,0 +1,38 @@
+How to Run
+
+
+1. Install Node.js from https://nodejs.org (LTS version)
+
+2. Open terminal then cd into studypilot-backend folder
+
+3. Install dependencies:
+       npm install
+
+4. Set your API key (PowerShell):
+       $env:ANTHROPIC_API_KEY="API KEY" 
+-Trey has API key, send message
+
+5. Talk To The AI:
+       node ai/chat.js
+
+
+FrontEnd Intergration:
+
+POST http://localhost:3000/api/chat
+
+Body:
+{
+  "messages": [
+    { "role": "user", "content": "user message here" },
+    { "role": "assistant", "content": "ai reply here" },
+    { "role": "user", "content": "next user message" }
+  ]
+}
+
+Returns:
+{
+  "reply": "AI response string"
+}
+
+   
+
